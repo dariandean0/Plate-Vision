@@ -416,3 +416,32 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Dataset and outputs
+car_plates_dataset/
+car_plates_dataset/images/
+car_plates_dataset/annotations/
+car_plates_dataset/labels/
+uploads/
+runs/
+
+# YOLOv5 outputs
+yolov5/runs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
