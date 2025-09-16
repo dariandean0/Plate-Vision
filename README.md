@@ -9,11 +9,6 @@ Plate-Vision is a web application that detects and recognizes license plates fro
 
 ---
 
-## Repository Structure
-Plate-Vision/ ├── backend/ # Backend code (Flask app) │ ├── app.py # Flask app entry point │ ├── models/ # Model-related code │ │ ├── plate_recognition_model.py │ │ └── init.py ├── frontend/ # Frontend code (HTML, CSS, JS) │ ├── index.html # Frontend HTML │ ├── app.js # Frontend JavaScript │ ├── styles.css # Frontend CSS ├── yolov5/ # YOLOv5 code (submodule or included) ├── car_plates_dataset/ # Dataset directory │ ├── annotations/ # Pascal VOC XML files │ ├── images/ # Raw images │ ├── labels/ # YOLO-format labels │ ├── dataset.yaml # YOLOv5 dataset configuration ├── uploads/ # Temporary directory for uploaded images ├── runs/ # YOLOv5 output directory (ignored in public repo) ├── LICENSE # License for your project ├── README.md # Project documentation ├── requirements.txt # Python dependencies └── download_dataset.py # Script to download the dataset
-
----
-
 ## Installation
 
 ### Prerequisites
