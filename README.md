@@ -14,6 +14,7 @@ Plate-Vision is a web application that detects and recognizes license plates fro
 ### Prerequisites
 - Python 3.8 or higher
 - pip (Python package manager)
+- Git
 - Tesseract OCR installed on your system ([Installation Guide](https://github.com/tesseract-ocr/tesseract))
 
 1. Clone the Repository:
@@ -37,13 +38,18 @@ python yolov5/train.py --img 416 --batch 16 --epochs 50 --data car_plates_datase
 ### Usage
 1. Start the Flask backend:
 ```bash
+cd license-plate-reader/backend
 python backend/app.py
 ```
 2. Open frontend/index.html in your browser or start a server:
 ```bash
 python -m http.server 8000
 ```
-3. Upload an image to detect and read license plates.
+3. Open your browser and navigate to: 
+```
+http://localhost:8000
+```
+4. Upload an image to detect and read license plates.
 
 ---
 
