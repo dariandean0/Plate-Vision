@@ -7,12 +7,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>License Plate Reader</h1>
-    <form id="uploadForm">
-        <input type="file" id="imageInput" name="image" accept="image/*" required>
-        <button type="submit">Upload</button>
-    </form>
-    <div id="result"></div>
+    <div class="container">
+        <h1>License Plate Reader</h1>
+        <div class="upload-section">
+            <form id="uploadForm">
+                <div class="file-input-container">
+                    <input type="file" id="imageInput" name="image" accept="image/*" required>
+                    <label for="imageInput" class="custom-file-input">Choose an image</label>
+                </div>
+                <button type="submit" class="submit-button">Detect License Plate</button>
+            </form>
+        </div>
+        
+        <div class="image-preview-container">
+            <div class="image-container">
+                <h3>Original Image</h3>
+                <img id="originalImage" src="" alt="Preview" style="display: none;">
+            </div>
+            <div class="image-container">
+                <h3>Detected License Plate</h3>
+                <img id="detectedImage" src="" alt="Detection Result" style="display: none;">
+            </div>
+        </div>
+        
+        <div id="result" class="result-container"></div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

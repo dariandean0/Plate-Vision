@@ -20,3 +20,5 @@ pytesseract==0.3.10
 
 # Other utilities
 requests==2.31.0
+
+python-dotenv==1.0.0
