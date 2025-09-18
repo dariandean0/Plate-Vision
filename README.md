@@ -1,3 +1,5 @@
+# Project In Progress: Do not follow Installation process
+
 # Plate-Vision: License Plate Detection and Recognition
 
 Plate-Vision is a web application that detects and recognizes license plates from images using YOLOv5 for object detection and Tesseract OCR for text recognition.
@@ -9,6 +11,7 @@ Plate-Vision is a web application that detects and recognizes license plates fro
 
 ---
 
+# Do not follow Installation Process
 ## Installation
 
 ### Prerequisites
